@@ -108,3 +108,56 @@ body{
     font-size: var(--font-size2);
     width: 200px;
 }
+.cards{
+    max-width: 1090px;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.card {
+    background-color: #f0f0f0;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    /* padding: 150px 80px; */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.card p{
+    background-color: var(--cor-cartao);
+    padding: 10px 5px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.fast{
+    background-image: url(../img/Bugatti.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.old{
+    background-image: url(../img/AstonMartin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lux{
+    background-image: url(../img/RollsRoyce.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-link {
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    color: inherit; /* Mantém a cor do texto do link igual à cor padrão */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}

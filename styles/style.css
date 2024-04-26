@@ -6,6 +6,10 @@
 
     --cor-texto-nav:rgb(158, 158, 167);
     --cor-texto:#FFFFFF;
+
+
+    --font-size1:16px;
+    --font-size2:18px;
 }
 
 *{
@@ -15,7 +19,8 @@
 }
 
 body{
-    font-family: Mona Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+    font-family: Mona Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: var(--cor-fundo);
 }
 
 .nav-container{
@@ -71,4 +76,35 @@ body{
 .cool-link:hover::after {
     width: 100%;
     transition: width .3s;
+}
+.intro-img{
+    background-image: url(../img/McLaren\ 765LT.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+
+.intro-text{
+    max-width: 1190px;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+    gap: 20px;
+    
+}
+.intro-text h1{
+     color: var(--cor-texto);
+     font-weight: 100;
+     font-size: 54px;
+     width: 300px;
+}
+.intro-text h1 span{
+    color: red;
+    
+}
+.intro-text p{
+    color: var(--cor-texto);
+    font-size: var(--font-size2);
+    width: 200px;
 }

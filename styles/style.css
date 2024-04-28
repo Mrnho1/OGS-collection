@@ -161,3 +161,49 @@ body{
     color: inherit; /* Mantém a cor do texto do link igual à cor padrão */
     cursor: pointer; /* Altera o cursor para indicar que é clicável */
 }
+.how{
+    max-width: 1190px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.how-title{
+    color: var(--cor-texto);
+    font-weight: 100;
+    width: 300px;
+    padding-bottom: 20px;
+}
+.table-how{
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+}
+.table-how p{
+    color: var(--cor-texto);
+}
+.table-how table{
+    width: 500px;
+    color: var(--cor-texto);
+}
+.list-bk{
+    background-color: #212025;
+    height: 25px;
+}
+footer{
+    background-color: #212025;
+}
+.footer{
+    display: block;
+    color: var(--cor-texto);
+    max-width: 1190px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-top: 30px;
+}

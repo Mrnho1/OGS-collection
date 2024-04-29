@@ -262,4 +262,15 @@ form {
 
   .devs{
     color: var(--cor-texto);
+    max-width: 1190px;
+    margin: auto;
+  }
+  .devs h3{
+    text-align: center;
+  }
+  .devs ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
   }
